@@ -15,19 +15,19 @@
       <nav>
         <ul>
           <li>
-            <button data-hash="initiatoren" v-on:click="scrollTo" class="text-link">Initiatoren</button>
+            <button data-hash="initiatoren" v-on:click="scrollTo">Initiatoren</button>
           </li>
           <li>
-            <button data-hash="spaces" v-on:click="scrollTo" class="text-link">Spaces</button>
+            <button data-hash="spaces" v-on:click="scrollTo">Spaces</button>
           </li>
           <li>
-            <button data-hash="community" v-on:click="scrollTo" class="text-link">Community</button>
+            <button data-hash="community" v-on:click="scrollTo">Community</button>
           </li>
           <li>
-            <button data-hash="services" v-on:click="scrollTo" class="text-link">Programme & Services</button>
+            <button data-hash="services" v-on:click="scrollTo">Programme & Services</button>
           </li>
           <li>
-            <button data-hash="join" v-on:click="scrollTo" class="text-link">Mitglied werden</button>
+            <button data-hash="join" v-on:click="scrollTo">Mitglied werden</button>
           </li>
         </ul>
       </nav>
@@ -66,7 +66,7 @@ export default {
         console.log(scrollTarget);
 
         var offset= scrollTarget.offsetTop;
-        gsap.to(window, 1,{scrollTo:{y:offset}});
+        gsap.to(window, 1,{scrollTo:{y:offset - 150}});
 
         if(this.$store.state.menu){
           this.$store.commit('toggleMenu', false);
@@ -110,6 +110,7 @@ export default {
     margin: 0 auto;
     cursor: pointer;
     text-align: center;
+    color: #fff;
     background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
     background-size: 200% 200%;
     -webkit-animation: silverMove 8s ease infinite;

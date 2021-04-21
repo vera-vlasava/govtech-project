@@ -98,7 +98,8 @@ export default {
 
     .stripes .layer{
       height: 100%;
-      width: 400vw;
+      width: 500vw;
+      left: -100vw;
       object-fit: cover;
       transition: transform .3 ease;
       position: relative;
@@ -139,6 +140,7 @@ export default {
         font-size: 28vw;
       }
       .stripes .layer{
+        left: -25vw;
         width: 200vw;
       }
     }
