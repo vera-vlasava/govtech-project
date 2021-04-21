@@ -28,7 +28,9 @@ export default {
 
 <style scoped>
   
-
+  .slice-stage{
+    padding-top: 30vh;
+  }
   .visual{
     margin: 2.5em 0;
     width: calc(100vw + 30px);

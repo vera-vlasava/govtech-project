@@ -91,6 +91,8 @@ p{
 .text-link{
   background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
   background-size: 200% 200%;
+  -webkit-animation: silverMove 8s ease infinite;
+  -moz-animation: silverMove 8s ease infinite;
   animation: silverMove 8s ease infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

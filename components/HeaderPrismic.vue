@@ -46,7 +46,6 @@ export default {
   name: "header-prismic",
   methods: {
     toogleMenu(e) {
-      console.log(gsap);
       if(this.$store.state.menu){
         this.$store.commit('toggleMenu', false);
         var that = this;
@@ -111,6 +110,14 @@ export default {
     margin: 0 auto;
     cursor: pointer;
     text-align: center;
+    background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
+    background-size: 200% 200%;
+    -webkit-animation: silverMove 8s ease infinite;
+    -moz-animation: silverMove 8s ease infinite;
+    animation: silverMove 8s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
     transition: opacity .4s ease-out;
   }
 
@@ -118,6 +125,24 @@ export default {
     opacity: 0.5;
     transition: opacity .4s ease-out;
   }
+
+
+
+@-webkit-keyframes silverMove {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-moz-keyframes silverMove {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@keyframes silverMove {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
 
   .offcanvas.active{
     transform: translateY(0);

@@ -8,12 +8,14 @@
 <style type="text/css">
   .offcanvasmove{
     transform: translateY(0vh);
-    transition: transform .7s ease-out;
+    opacity: 1;
+    transition: all .7s ease-out;
   }
 
   .menu_open .offcanvasmove{
     transform: translateY(200px);
-    transition: transform .7s ease-out;
+    opacity: 0.7;
+    transition: all .7s ease-out;
   }
 </style>
 
