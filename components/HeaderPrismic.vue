@@ -135,11 +135,6 @@ export default {
     -webkit-text-fill-color: transparent;
   }
 
-  .offcanvas button:hover{
-    opacity: 0.5;
-    transition: opacity .4s ease-out;
-  }
-
 
 
 @-webkit-keyframes silverMove {
@@ -229,6 +224,12 @@ export default {
     .offcanvas{
       padding-top: 0;
     }
+
+    .offcanvas button:hover{
+      opacity: 0.5;
+      transition: opacity .4s ease-out;
+    }
+
 
 
   }
