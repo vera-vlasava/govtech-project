@@ -15,19 +15,19 @@
       <nav>
         <ul>
           <li>
-            <button data-hash="initiatoren" v-on:click="scrollTo">Initiatoren</button>
+            <button data-hash="initiatoren" v-on:click="scrollTo"><span>Initiatoren</span></button>
           </li>
           <li>
-            <button data-hash="spaces" v-on:click="scrollTo">Spaces</button>
+            <button data-hash="spaces" v-on:click="scrollTo"><span>Spaces</span></button>
           </li>
           <li>
-            <button data-hash="community" v-on:click="scrollTo">Community</button>
+            <button data-hash="community" v-on:click="scrollTo"><span>Community</span></button>
           </li>
           <li>
-            <button data-hash="services" v-on:click="scrollTo">Programme & Services</button>
+            <button data-hash="services" v-on:click="scrollTo"><span>Programme & Services</span></button>
           </li>
           <li>
-            <button data-hash="join" v-on:click="scrollTo">Mitglied werden</button>
+            <button data-hash="join" v-on:click="scrollTo"><span>Mitglied werden</span></button>
           </li>
         </ul>
       </nav>
@@ -118,15 +118,21 @@ export default {
     text-align: center;
     color: #fff;
     opacity: 1;
-    /*background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
-    background-size: 200% 200%;*/
-    /*-webkit-animation: silverMove 8s ease infinite;
+    background: transparent;
+
+    
+    text-decoration: none;
+    transition: opacity .4s ease-out;
+  }
+
+  .offcanvas button span{
+    background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
+    background-size: 200% 200%;
+    -webkit-animation: silverMove 8s ease infinite;
     -moz-animation: silverMove 8s ease infinite;
     animation: silverMove 8s ease infinite;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
-    text-decoration: underline;
-    transition: opacity .4s ease-out;
+    -webkit-text-fill-color: transparent;
   }
 
   .offcanvas button:hover{
