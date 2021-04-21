@@ -16,7 +16,8 @@
       </p>
     </div>
     <div class="wrapper wrapper--full parallax-bg">
-      <img src="~/assets/img/govtech_stage.jpg" v-parallax="0.2">
+      <img src="https://images.unsplash.com/photo-1496096265110-f83ad7f96608?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80" v-parallax="0.2">
+      <!-- ~/assets/img/govtech_stage.jpg -->
     </div>
   </section>
 </template>

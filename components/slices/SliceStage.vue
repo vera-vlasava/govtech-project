@@ -29,7 +29,7 @@ export default {
 <style scoped>
   
   .slice-stage{
-    padding-top: 30vh;
+    padding-top: 20vh;
   }
   .visual{
     margin: 2.5em 0;

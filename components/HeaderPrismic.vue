@@ -61,12 +61,18 @@ export default {
       
       if(e){
        console.log(e.target.dataset.hash);
-       var scrollTarget = document.getElementById(e.target.dataset.hash);
+       var hash = e.target.dataset.hash;
+       var scrollTarget = document.getElementById(hash);
        if(scrollTarget){
         console.log(scrollTarget);
 
         var offset= scrollTarget.offsetTop;
-        gsap.to(window, 1,{scrollTo:{y:offset - 150}});
+        var furtherOffset = 150;
+
+        if(hash == 'join'){
+          furtherOffset = 0;
+        }
+        gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
 
         if(this.$store.state.menu){
           this.$store.commit('toggleMenu', false);
@@ -111,13 +117,14 @@ export default {
     cursor: pointer;
     text-align: center;
     color: #fff;
-    background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
-    background-size: 200% 200%;
-    -webkit-animation: silverMove 8s ease infinite;
+    opacity: 1;
+    /*background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
+    background-size: 200% 200%;*/
+    /*-webkit-animation: silverMove 8s ease infinite;
     -moz-animation: silverMove 8s ease infinite;
     animation: silverMove 8s ease infinite;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;*/
     text-decoration: underline;
     transition: opacity .4s ease-out;
   }
