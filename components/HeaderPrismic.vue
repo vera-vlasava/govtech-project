@@ -69,7 +69,7 @@ export default {
         var offset= scrollTarget.offsetTop;
         var furtherOffset = 150;
 
-        if(hash == 'join'){
+        if(hash == 'join' || window.innerWidth >= 600){
           furtherOffset = 0;
         }
         gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
@@ -126,6 +126,7 @@ export default {
   }
 
   .offcanvas button span{
+    pointer-events: none;
     background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
     background-size: 200% 200%;
     -webkit-animation: silverMove 8s ease infinite;
