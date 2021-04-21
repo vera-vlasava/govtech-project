@@ -1,0 +1,30 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Projects/jonny/govtech/website/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5e72ca49"
+  },
+  {
+    "name": "lang",
+    "path": "/:lang",
+    "component": "/Projects/jonny/govtech/website/pages/_lang/index.vue",
+    "chunkName": "pages/_lang/index",
+    "_name": "_655eda47"
+  },
+  {
+    "name": "uid",
+    "path": "/:uid",
+    "component": "/Projects/jonny/govtech/website/pages/_uid.vue",
+    "chunkName": "pages/_uid",
+    "_name": "_ae98542c"
+  },
+  {
+    "name": "lang-uid",
+    "path": "/:lang/:uid",
+    "component": "/Projects/jonny/govtech/website/pages/_lang/_uid.vue",
+    "chunkName": "pages/_lang/_uid",
+    "_name": "_dfb263a8"
+  }
+]
