@@ -36,18 +36,17 @@
 </template>
 
 <script>
-
-import { gsap } from 'gsap/all';
-
-import { ScrollToPlugin } from 'gsap/all';
+import { gsap, ScrollToPlugin } from 'gsap/all';
 
 gsap.registerPlugin(ScrollToPlugin);
+
 
 
 export default {
   name: "header-prismic",
   methods: {
     toogleMenu(e) {
+      console.log(gsap);
       if(this.$store.state.menu){
         this.$store.commit('toggleMenu', false);
         var that = this;
@@ -106,13 +105,16 @@ export default {
     transition: transform .7s ease-out;
   }
 
-  .offcanvas a{
-    padding: 10px 0;
+  .offcanvas button{
+    padding: 10px;
     display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
     transition: opacity .4s ease-out;
   }
 
-  .offcanvas a:hover{
+  .offcanvas button:hover{
     opacity: 0.5;
     transition: opacity .4s ease-out;
   }
