@@ -14,7 +14,7 @@
 
   .menu_open .offcanvasmove{
     transform: translateY(200px);
-    opacity: 0.7;
+    opacity: 0.4;
     transition: all .7s ease-out;
   }
 </style>
