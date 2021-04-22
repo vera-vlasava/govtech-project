@@ -11,7 +11,10 @@
 
       <div class="slice-services__item">
         <div class="slice-services__visual">
-          <img src="~/assets/img/stripe_01.jpg" />
+          <video autoplay playsinline muted loop>
+            <source src="~/assets/img/stripe_01.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div class="slice-services__content">
           <div>
@@ -23,7 +26,10 @@
 
       <div class="slice-services__item slice-services__visual--right">
         <div class="slice-services__visual">
-          <img src="~/assets/img/stripe_02.jpg" />
+          <video  autoplay playsinline muted loop>
+            <source src="~/assets/img/stripe_02.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div class="slice-services__content">
           <div>
@@ -35,7 +41,10 @@
 
       <div class="slice-services__item">
         <div class="slice-services__visual">
-          <img src="~/assets/img/stripe_03.jpg" />
+          <video  autoplay playsinline muted loop>
+            <source src="~/assets/img/stripe_03.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div class="slice-services__content">
           <div>
@@ -66,7 +75,7 @@ export default {
     margin-bottom: 1.8em;
   }
 
-  .slice-services__visual img{
+  .slice-services__visual video{
     height: 100%;
     width: 100%;
     object-fit: cover;
