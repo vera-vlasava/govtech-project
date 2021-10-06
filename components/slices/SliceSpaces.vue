@@ -4,13 +4,14 @@
       <div class="desktop-flex">
         <div class="content">
           <h2 class="u-h1">
-            Spaces
+            CAMPUS<br />
+            SITES
           </h2>
           <p>
-            Der GovTech Campus Deutschland setzt in Sachen Konsequenz und Dimension Maßstäbe. Unser Anspruch: Innovationspartnerschaften zwischen Staat und Verwaltung, Wissenschaft, Techszene und Zivilgesellschaft aktiv initiieren mit dem Ziel, Deutschland zum führenden Anwender und Treiber von GovTech zu machen.
+            Die erste Campus Site wird 2021 in Berlin-Mitte eröffnet. Büroräume, Co-Ideation/–Creation/–Learning-Bereiche für Verwaltungen, Startups, Zivilgesellschaft, Forschungsorganisationen oder Tech-Unternehmen ergänzen sich mit modernsten Veranstaltungs- und Seminarräumen und stehen Mitgliedern und Residents zur Verfügung.
           </p>
           <p class="hide-mobile">
-            Quartiere in Berlin und den Bundesländern bilden eine Infrastruktur für das gemeinsame Entwickeln, Testen und Realisieren von GovTech-Innovationen und das Lernen voneinander. Ein inspirierendes Umfeld, das Arbeitswelten intelligent vereint und Branchen, Technologien, Wissen und Umsetzungsfähigkeiten zusammenbringt.
+            An weiteren Standorten in den Bundesländern - beginnend in Frankfurt/Hessen - bieten wir ein inspirierendes Umfeld, das Arbeitswelten intelligent vereint und Branchen, Technologien, Wissen und Umsetzungsfähigkeiten zusammenbringt.
           </p>
         </div>
         <div class="morses">
@@ -60,7 +61,7 @@
         </div>
       </div>
       <p class="hide-desktop">
-        Quartiere in Berlin und den Bundesländern bilden eine Infrastruktur für das gemeinsame Entwickeln, Testen und Realisieren von GovTech-Innovationen und das Lernen voneinander. Ein inspirierendes Umfeld, das Arbeitswelten intelligent vereint und Branchen, Technologien, Wissen und Umsetzungsfähigkeiten zusammenbringt.
+        An weiteren Standorten in den Bundesländern - beginnend in Frankfurt/Hessen - bieten wir ein inspirierendes Umfeld, das Arbeitswelten intelligent vereint und Branchen, Technologien, Wissen und Umsetzungsfähigkeiten zusammenbringt.
       </p>
     </div>
   </section>

@@ -2,11 +2,10 @@
   <section class="slice slice-services" id="services">
     <div class="wrapper  wrapper--offset">
       <h2 class="u-h1">
-        Programme<br />
-        und ServiceS
+        Programme
       </h2>
       <p class="intro">
-        Ausgewählte Programme und Services bündeln die einzigartige Expertise und das Potenzial unserer Mitglieder und Campus Residents
+        Wir bündeln die Expertise unserer Mitglieder und Campus Residents durch drei programmatische Ansätze. Die Ergebnisse unserer Arbeit machen wir Bund, Ländern und Kommunen sowie der Öffentlichkeit zugänglich.
       </p>
 
       <div class="slice-services__item">
@@ -18,8 +17,8 @@
         </div>
         <div class="slice-services__content">
           <div>
-            <h3 class="u-h3">Fellowship-Programm</h3>
-            <p>Unser Fellowship-Programm bietet Vordenker:innen für die Dauer von 3-6 Monaten die Möglichkeit, neue Ideen und Ansätze zur Stärkung von Demokratie und offenen Gesellschaften durch digitale Technologien zu entwickeln und in die Öffentlichkeit zu bringen. Unsere Fellows tragen aktiv zum Campus-Leben bei und initiieren strategische Diskussionen und Debatten über die Weiterentwicklung von Staat und Verwaltung.</p>
+            <h3 class="u-h3">Co-Ideation</h3>
+            <p>Wir organisieren Wissensplattformen,in denen Verwaltungen, Techszene, Forschungsorganisationen und Zivilgesellschaft das GovTech-Ökosystem entschlüsseln und zusammen mit Expert:innen aus IT, Recht und Vergabe überzeugende Antworten auf die digitalen und technologischen Innovationsaufgaben von Bund, Ländern und Kommunen finden.</p>
           </div>
         </div>
       </div>
@@ -33,8 +32,8 @@
         </div>
         <div class="slice-services__content">
           <div>
-            <h3 class="u-h3">Entrepreneur-in-residence-Programm</h3>
-            <p>Europa’s erstes ‘Entrepreneur-in-Residence-Programm’ für GovTech bietet herausragenden Persönlichkeiten für die Dauer von 6-12 Monaten die Möglichkeit, unternehmerische Forschungs- und Innovationsprojekte zur digitalen Transformation von Staat und Verwaltung voranzutreiben. Über das Entrepreneur-in-Residence-Programm verbinden wir Partner und Campus Residents mit den besten Innovatoren und Gründerpersönlichkeiten für Government Technology.</p>
+            <h3 class="u-h3">Co-Creation</h3>
+            <p>Wir stellen die Infrastruktur für ambitionierteInnovationsprojekte von Staat und Verwaltung mit dem GovTech-Ökosystem. Fürjedes Projekt organisierenwir ein offenes Innovations-Ökosystem mit den passenden GovTech-Akteuren - vom ITDienstleister, Open-Source-Startups, Hyperscalern, zivilgesellschaftlichen Akteuren oder Forschungsorganisationen - die digitale oder technologische Innovationen in konkrete Anwendungsfälle übertragen können.</p>
           </div>
         </div>
       </div>
@@ -48,8 +47,8 @@
         </div>
         <div class="slice-services__content">
           <div>
-            <h3 class="u-h3">Associate-Programm</h3>
-            <p>Im Rahmen der GovTech Associateships bringen wir Mitarbeiterinnen und Mitarbeiter aus Verwaltungsorganisationen mit Startups, Entwicklern und anderen Akteuren aus der Technologieszene zusammen. Dabei gewinnen alle Associates durch die Zusammenarbeit mit der Technologieszene wertvolle Erkenntnisse und Zugang zu den Methoden und Innovationen der Tech- und Digitalszene. Am Associateship-Programm können alle Verwaltungsorganisationen aus Bund, Ländern und Kommunen teilnehmen.</p>
+            <h3 class="u-h3">Co-Learning</h3>
+            <p>Wir generieren wirksame Impulse fürdie digitale Transformation von Verwaltungsorganisationen. Durch Fellowships, Briefings, Case-Präsentationen und weitere Austausch- und Lernformate fördern wir den Austausch der Verwaltung mit dem GovTech-Ökosystem und machen wertvolle Expertise für alle zugänglich.</p>
           </div>
         </div>
       </div>

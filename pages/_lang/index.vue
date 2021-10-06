@@ -52,6 +52,9 @@ export default {
           slice_type: 'services'
         },
         {
+          slice_type: 'initiator'
+        },
+        {
           slice_type: 'member'
         }
       ]

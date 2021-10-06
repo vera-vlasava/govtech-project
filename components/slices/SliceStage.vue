@@ -3,17 +3,16 @@
     <div class="wrapper">
       <h1 class="u-h2">
         GovTech Campus Deutschland -<br />
-        Die führende GovTech Community für<br />
-        die Zukunft von Staat und Verwaltung
+        Technologien für die Zukunft von<br />
+        Staat und Verwaltung
       </h1>
     </div>
-
     <div class="wrapper wrapper--offset">
       <div class="visual">
         <img src="~/assets/img/govtech_stage.jpg" />
       </div>
       <p>
-        Digitale Transformation und technologische Resilienz von Staat und Verwaltung sind die treibenden Themen unserer Zeit. Die Herausforderungen sind Vielfältig, aber die Chancen enorm. Mit dem GovTech Campus Deutschland, als gemeinsamer Lern-, Vernetzungs- und Experiementierraum haben wir es uns zur Aufgabe gemacht, ideale Voraussetzungen für die Entwicklung digitaler Innovationen für Staat und Verwaltung in Bund, Ländern und Kommunen zu schaffen.
+        Digitale Innovation und technologische Resilienz von Staat und Verwaltung sind die treibenden Themen unserer Zeit. Die Herausforderungen sind vielfältig, aber die Chancen enorm. Mit dem GovTech Campus Deutschland, dem weltweit ersten Innovations-, Entwicklungs- und Lernraum dieser Art, schaffen wir ideale Voraussetzungen für die Modernisierung von Staat und Demokratie.
       </p>
     </div>
   </section>

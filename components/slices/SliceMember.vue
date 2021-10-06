@@ -3,17 +3,16 @@
     <div class="wrapper">
       <div>
         <h2 class="u-h2">
-          Mitglied<br />
-          werden
+          KONTAKT
         </h2>
         <div class="subinfo">
           <p>
-            Finden Sie die richtige<br />
-            Campus-Mitgliedschaft für Sie.
+            Haben Sie Fragen zum Campus und<br />
+             unserer Arbeit? Kontaktieren Sie uns:
           </p>
           <p>
             Kontaktieren Sie uns unter:<br />
-            <a href="mailto:info@govtech.gov">info@govtech.gov</a>
+            <a href="mailto:office@govtechcampus.de">office@govtechcampus.de</a>
           </p>
         </div>
       </div>

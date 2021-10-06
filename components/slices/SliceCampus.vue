@@ -2,12 +2,14 @@
   <section class="slice slice-campus">
     <div class="wrapper wrapper--offset">
       <h2 class="u-h1">
-        GovTech<br />
-        Campus<br />
-        <small>Deutschland</small> 
+        CAMPUS<br />
+        LIFE
       </h2>
       <p> 
-        Der Gov Tech Campus Deutschland ist eine kuratierte GovTech-Innovation-Community von Entscheider:innen, Vorreiter:innen, Gründer:innen und Entwickler:innen aus Staat und Verwaltung, Startups, Unternehmen, angewandter Forschung und zivilgesellschaftlichen Akteuren.
+        Der GovTech Campus Deutschland bietet hervorragende Voraussetzungen für Kollaboration und die Entwicklung, Erprobung und Umsetzung von Innovationen für den Staat. Zusammenarbeit, Offenheit und Zugänglichkeit prägen das Arbeitsumfeld.
+      </p>
+      <p> 
+        Hybride Veranstaltungsformate, Live-Streams, ein Digital- und Tech-Curriculum für den öffentlichen Sektor sowie ein aktives Community-Management schaffen ein inspirierendes Umfeld und generieren wirksame Impulse für die digitale Transformation von Staat und Verwaltung.
       </p>
     </div>
 

@@ -30,6 +30,10 @@
             <template v-else-if="slice.slice_type === 'member'">
                 <slice-member :slice="slice"/>
             </template>
+
+            <template v-else-if="slice.slice_type === 'initiator'">
+                <slice-initiator :slice="slice"/>
+            </template>
         </div>
     </main>
 </template>
@@ -43,6 +47,7 @@ const SliceLife = () => import("./slices/SliceLife.vue");
 const SliceSpaces = () => import("./slices/SliceSpaces.vue");
 const SliceServices = () => import("./slices/SliceServices.vue");
 const SliceMember = () => import("./slices/SliceMember.vue");
+const SliceInitiator = () => import("./slices/SliceInitiator.vue");
 
 export default {
   props: ['slices'],
@@ -54,7 +59,8 @@ export default {
     SliceLife,
     SliceSpaces,
     SliceServices,
-    SliceMember
+    SliceMember,
+    SliceInitiator
   },
 }
 </script>
