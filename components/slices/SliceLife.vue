@@ -1,5 +1,5 @@
 <template>
-  <section class="slice slice-life">
+  <section class="slice slice-life" id="life">
     <div class="wrapper wrapper--offset">
       <h2 class="u-h1">
         Campus<br />

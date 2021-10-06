@@ -40,6 +40,9 @@ export default {
           slice_type: 'campus'
         },
         {
+          slice_type: 'services'
+        },
+        {
           slice_type: 'community'
         },
         {
@@ -47,9 +50,6 @@ export default {
         },
         {
           slice_type: 'spaces'
-        },
-        {
-          slice_type: 'services'
         },
         {
           slice_type: 'initiator'

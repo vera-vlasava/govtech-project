@@ -15,17 +15,23 @@
       <nav>
         <ul>
           <li>
-            <button data-hash="initiatoren" v-on:click="scrollTo"><span>Initiatoren</span></button>
-          </li>
-          <li>
-            <button data-hash="sites" v-on:click="scrollTo"><span>Sites</span></button>
+            <button data-hash="services" v-on:click="scrollTo"><span>Programme</span></button>
           </li>
           <li>
             <button data-hash="community" v-on:click="scrollTo"><span>Community</span></button>
           </li>
           <li>
-            <button data-hash="services" v-on:click="scrollTo"><span>Programme</span></button>
+            <button data-hash="life" v-on:click="scrollTo"><span>Life</span></button>
           </li>
+          
+          <li>
+            <button data-hash="sites" v-on:click="scrollTo"><span>Sites</span></button>
+          </li>
+          
+          <li>
+            <button data-hash="initiatoren" v-on:click="scrollTo"><span>Initiatoren</span></button>
+          </li>
+          
           <li>
             <button data-hash="join" v-on:click="scrollTo"><span>Kontakt</span></button>
           </li>
