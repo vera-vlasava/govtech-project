@@ -1,5 +1,5 @@
 <template>
-  <section class="slice slice-spaces" id="spaces">
+  <section class="slice slice-spaces" id="sites">
     <div class="wrapper wrapper--offset">
       <div class="desktop-flex">
         <div class="content">

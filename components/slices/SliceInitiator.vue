@@ -1,5 +1,5 @@
 <template>
-  <section class="slice slice-community" id="community">
+  <section class="slice slice-community" id="initiatoren">
     <div class="wrapper wrapper--offset">
       <h2 class="u-h1">
         INITIATOREN
