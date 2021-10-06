@@ -39,7 +39,7 @@
             <div class="line"></div>
             <div class="dot dot-with-location">
               <span class="circle"></span>
-              <span class="label">Hessen</span>
+              <span class="label">Hamburg</span>
             </div>
             <div class="line"></div>
             <div class="line"></div>
@@ -51,7 +51,7 @@
             <div class="line"></div>
             <div class="dot dot-with-location dot-with-location--left">
               <span class="circle"></span>
-              <span class="label">NRW</span>
+              <span class="label">Frankfurt</span>
             </div>
             <div class="line"></div>
             <div class="line"></div>

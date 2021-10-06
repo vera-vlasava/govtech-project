@@ -37,13 +37,16 @@ export default {
           slice_type: 'stage'
         },
         {
+          slice_type: 'campus'
+        },
+        {
           slice_type: 'services'
         },
         {
           slice_type: 'community'
         },
         {
-          slice_type: 'campus'
+          slice_type: 'life'
         },
         {
           slice_type: 'spaces'

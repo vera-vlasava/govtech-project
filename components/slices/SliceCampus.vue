@@ -2,15 +2,12 @@
   <section class="slice slice-campus">
     <div class="wrapper wrapper--offset">
       <h2 class="u-h1">
-        CAMPUS<br />
-        LIFE
+        GovTech<br />
+        Campus<br />
+        <small>Deutschland</small> 
       </h2>
       <p> 
-        Der GovTech Campus Deutschland bietet hervorragende Voraussetzungen für Kollaboration und die Entwicklung, Erprobung und Umsetzung von Innovationen für den Staat. Zusammenarbeit, Offenheit und Zugänglichkeit prägen das Arbeitsumfeld.
-      </p>
-      <p> 
-        Hybride Veranstaltungsformate, Live-Streams, ein Digital- und Tech-Curriculum für den öffentlichen Sektor sowie ein aktives Community-Management schaffen ein inspirierendes Umfeld und generieren wirksame Impulse für die digitale Transformation von Staat und Verwaltung.
-      </p>
+        Wir wollen Deutschland zum Vorreiter bei der Entwicklung und Anwendung digitaler Technologien und Lösungen für den öffentlichen Sektor - Government Technology - machen.Wir vernetzen Bund, Länder und Kommunenmit mit innovativsten Akteuren der Techszene, der Zivilgesellschaft, der Open-Source-Community und der angewandten Forschung. In produktivem Umfeld mit optimalem Know how und zentraler Infrastruktur erschließen, entwickeln und erproben wir neue Ideen und Lösungen und helfen dabei, sie in Deutschland zur Anwendung zu bringen.      </p>
     </div>
 
     <div class="wrapper wrapper--full">

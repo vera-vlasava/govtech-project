@@ -8,7 +8,7 @@
         <div class="subinfo">
           <p>
             Haben Sie Fragen zum Campus und<br />
-             unserer Arbeit? Kontaktieren Sie uns:
+             unserer Arbeit?
           </p>
           <p>
             Kontaktieren Sie uns unter:<br />
