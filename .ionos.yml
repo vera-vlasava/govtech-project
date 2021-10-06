@@ -1,5 +1,5 @@
 ---
-distFolder: out
+distFolder: dist
 setup:
 - name: Setup project
   action: actions/setup-node@v1
@@ -10,7 +10,4 @@ prepare:
   command: npm ci
 build:
   name: Build project
-  command: npm run build
-generate:
-  name: Generate
   command: npm run generate
