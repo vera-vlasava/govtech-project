@@ -12,36 +12,12 @@
       <div class="wrapper wrapper--offset">
         <div class="logos">
           <div>
-            <img src="">
+             <img src="~/assets/img/logo01.jpg" />
           </div>
           <div>
-            <img src="">
+            <img src="~/assets/img/logo02.jpg" />
           </div>
-          <div>
-            <img src="">
-          </div>
-          <div>
-            <img src="">
-          </div>
-          <div>
-            <img src="">
-          </div>
-
-          <div>
-            <img src="">
-          </div>
-          <div>
-            <img src="">
-          </div>
-          <div>
-            <img src="">
-          </div>
-          <div>
-            <img src="">
-          </div>
-          <div>
-            <img src="">
-          </div>
+          
         </div>
       </div>
     </div>
@@ -71,12 +47,18 @@ export default {
   .logos div{
     display: inline-block;
     white-space: nowrap;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    background: #1f1f1f;
-    margin-right: 40px;
-    margin-bottom: 40px;
+    height: 60px;
+    width: 120px;
+    background: #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .logos img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
   }
 
   @media only screen and (min-width: 900px){
@@ -114,7 +96,9 @@ export default {
       padding: 0;
     }
     .logos div{
-      margin-right: 100px;
+      margin-right: 50px;
+      height: 80px;
+      width: 150px;
     }
   }
 
