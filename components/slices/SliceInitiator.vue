@@ -17,6 +17,9 @@
           <div>
             <img src="~/assets/img/logo02.jpg" />
           </div>
+          <div>
+            <img src="~/assets/img/logo03.jpg" />
+          </div>
           
         </div>
       </div>
@@ -49,7 +52,7 @@ export default {
     white-space: nowrap;
     height: 60px;
     width: 120px;
-    background: #fff;
+    background: #000;
     margin-right: 20px;
     margin-bottom: 20px;
   }
@@ -57,6 +60,7 @@ export default {
   .logos img{
     height: 100%;
     width: 100%;
+    object-position: center;
     object-fit: cover;
 
   }
