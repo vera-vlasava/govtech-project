@@ -33,7 +33,7 @@
         <div class="slice-services__content">
           <div>
             <h3 class="u-h3">Co-Creation</h3>
-            <p>Wir stellen die Infrastruktur für ambitionierteInnovationsprojekte von Staat und Verwaltung mit dem GovTech-Ökosystem. Fürjedes Projekt organisierenwir ein offenes Innovations-Ökosystem mit den passenden GovTech-Akteuren - vom ITDienstleister, Open-Source-Startups, Hyperscalern, zivilgesellschaftlichen Akteuren oder Forschungsorganisationen - die digitale oder technologische Innovationen in konkrete Anwendungsfälle übertragen können.</p>
+            <p>Wir stellen die Infrastruktur für ambitionierte Innovationsprojekte von Staat und Verwaltung mit dem GovTech-Ökosystem. Für jedes Projekt organisieren wir ein offenes Innovations-Ökosystem mit den passenden GovTech-Akteuren - vom IT-Dienstleister, Open-Source-Lösungen, Hyperscalern, zivilgesellschaftlichen Akteuren bis zu namhaften Forschungsorganisationen - die digitale oder technologische Innovationen in konkrete Anwendungsfälle übertragen können.</p>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
         <div class="slice-services__content">
           <div>
             <h3 class="u-h3">Co-Learning</h3>
-            <p>Wir generieren wirksame Impulse fürdie digitale Transformation von Verwaltungsorganisationen. Durch Fellowships, Briefings, Case-Präsentationen und weitere Austausch- und Lernformate fördern wir den Austausch der Verwaltung mit dem GovTech-Ökosystem und machen wertvolle Expertise für alle zugänglich.</p>
+            <p>Wir generieren wirksame Impulse für die digitale Transformation von Verwaltungsorganisationen. Durch Fellowships, Briefings, Case-Präsentationen und weitere Austausch- und Lernformate fördern wir den Austausch der Verwaltung mit dem GovTech-Ökosystem und machen wertvolle Expertise für alle zugänglich.</p>
           </div>
         </div>
       </div>

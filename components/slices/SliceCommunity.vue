@@ -5,7 +5,7 @@
         Community
       </h2>
       <p>
-        Der GovTech Campus Deutschland ist ein Ort der Innovation, der Kollaboration, des Lernens - und des Umsetzens. Wir orchestrieren den Aufbau der führenden GovTech-Community in Europa und bieten Bund, Ländern und Kommunen, Startups, Zivilgesellschaft und Forschungsorganisationen wie Unternehmen erstmals eine zentrale Infrastruktur für die Entwicklung der Zukunft von Staat und Verwaltung. Kontaktieren Sie uns!
+        Der GovTech Campus Deutschland ist ein Ort der Innovation, der Kollaboration, des Lernens - und des Umsetzens. Wir orchestrieren den Aufbau der führenden GovTech-Community in Europa und bieten Bund, Ländern und Kommunen erstmals eine zentrale Infrastruktur für die Zusammenarbeit mit der Technologieszene - vom Projektdesign bis hin zur Ausschreibung. Kontaktieren Sie uns!
       </p>
     </div>
     <div class="wrapper wrapper--offset">

@@ -6,13 +6,7 @@
         life
       </h2>
       <p>
-        Der GovTech Campus Deutschland geht neue Wege im Community-Building. Gemeinsam mit unseren Campus Residents und Partnern organisieren wir Veranstaltungen zur Förderung des Wissensaustauschs und der Zusammenarbeit - unterstützt durch ausgewählte Programme und Services. Ein Digital- und Tech-Curriculum für Staat und Verwaltung, technische Neuerungen und ein aktives Community-Management schaffen ein inspirierendes Umfeld und generiert wirksame Impulse für die digitale Transformation von Staat und Verwaltung. Der Campus dient der Community als Vernetzungs-, Lern- und Umsetzungsraum.
-      </p>
-      <p>
-        Für Staat und Verwaltung aus Bund, Ländern und Kommunen wird ein einmaliger Raum geschaffen, neue Arbeitsformen Co-Creation und Collaboration zu erlebbar zu machen und zu nutzen. 
-      </p>
-      <p>
-        Startups und Technologieszene erhalten die Möglichkeit, mit Verwaltung unmittelbar in Interaktion zu treten.  
+        Der GovTech Campus Deutschland bietet hervorragende Voraussetzungen für Kollaboration und die Entwicklung, Erprobung und Umsetzung von Innovationen für den Staat. Zusammenarbeit, Offenheit und Zugänglichkeit prägen das Arbeitsumfeld. Hybride Veranstaltungsformate, Live-Streams, ein Digital- und Tech-Curriculum für den öffentlichen Sektor sowie ein aktives Community-Management schaffen ein inspirierendes Umfeld und generieren wirksame Impulse für die digitale Transformation von Staat und Verwaltung.  
       </p>
     </div>
     <div class="wrapper wrapper--full parallax-bg">

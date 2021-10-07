@@ -7,7 +7,7 @@
         <small>Deutschland</small> 
       </h2>
       <p> 
-        Wir wollen Deutschland zum Vorreiter bei der Entwicklung und Anwendung digitaler Technologien und Lösungen für den öffentlichen Sektor - Government Technology - machen.Wir vernetzen Bund, Länder und Kommunenmit mit innovativsten Akteuren der Techszene, der Zivilgesellschaft, der Open-Source-Community und der angewandten Forschung. In produktivem Umfeld mit optimalem Know how und zentraler Infrastruktur erschließen, entwickeln und erproben wir neue Ideen und Lösungen und helfen dabei, sie in Deutschland zur Anwendung zu bringen.      </p>
+        Wir wollen Deutschland zum Vorreiter bei der Entwicklung und Anwendung digitaler Technologien und Lösungen für den öffentlichen Sektor - Government Technology - machen.Wir vernetzen Bund, Länder und Kommunen mit mit innovativsten Akteuren der Techszene, der Zivilgesellschaft, der Open-Source-Community und der angewandten Forschung. In produktivem Umfeld mit optimalem Know how und zentraler Infrastruktur erschließen, entwickeln und erproben wir neue Ideen und Lösungen und helfen dabei, sie in Deutschland zur Anwendung zu bringen.      </p>
     </div>
 
     <div class="wrapper wrapper--full">

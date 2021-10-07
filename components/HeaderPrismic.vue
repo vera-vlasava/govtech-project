@@ -21,7 +21,7 @@
             <button data-hash="community" v-on:click="scrollTo"><span>Community</span></button>
           </li>
           <li>
-            <button data-hash="life" v-on:click="scrollTo"><span>Life</span></button>
+            <button data-hash="life" v-on:click="scrollTo"><span>Campus Life</span></button>
           </li>
           
           <li>
