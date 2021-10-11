@@ -1,15 +1,16 @@
 <template>
   <div>
     <header-prismic />
-    
-    <div class="site-content page">
-     	<div class="wrapper">
- 			<h1 class="u-h1">Impressum</h1>
- 			<p>Lorem ipsum</p>
- 		</div>
-    </div>
+    <div class="offcanvasmove">
+	    <div class="site-content page">
+	     	<div class="wrapper">
+	 			<h1 class="u-h1">datenschutz</h1>
+	 			<p>Lorem ipsum</p>
+	 		</div>
+	    </div>
 
-    <footer-prismic />
+	    <footer-prismic />
+ 	</div>
   </div>
 </template>
 
