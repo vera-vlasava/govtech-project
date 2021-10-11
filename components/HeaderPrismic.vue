@@ -53,7 +53,10 @@ export default {
   mounted(){
     if(window.location.hash) {
       setTimeout(function(){
-        var scrollTarget = document.getElementById(window.location.hash);
+        var hash = window.location.hash.replace('#','');
+
+
+        var scrollTarget = document.getElementById(hash);
         var offset= scrollTarget.offsetTop;
         var furtherOffset = 150;
 
@@ -62,6 +65,7 @@ export default {
         }
 
         if(scrollTarget){
+          console.log(scrollTarget);
           gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
         }
         

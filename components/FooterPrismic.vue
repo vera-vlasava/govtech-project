@@ -4,8 +4,8 @@
     	<p class="copyright">© 2021 GovTech</p>
     	<nav>
     		<ul>
-    			<li><a href="">Impressum</a></li>
-    			<li><a href="">Datenschutz</a></li>
+    			<li><a href="/impressum">Impressum</a></li>
+    			<li><a href="/datenschutz">Datenschutz</a></li>
     		</ul>
     	</nav>
     </div>
