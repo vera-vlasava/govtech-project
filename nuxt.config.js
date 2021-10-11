@@ -62,6 +62,16 @@ export default {
   //   disableGenerator: false,
   // },
 
+
+  buildModules: ['nuxt-gsap-module'],
+
+  gsap: {
+    extraPlugins: {
+      scrollTo: true,
+      scrollTrigger: true
+    }
+  },
+
   /*
    ** Build configuration
    */

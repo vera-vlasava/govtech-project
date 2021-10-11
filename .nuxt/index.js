@@ -13,6 +13,7 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
+import nuxt_plugin_gsapModule_34bca624 from 'nuxt_plugin_gsapModule_34bca624' // Source: ./gsapModule.js (mode: 'all')
 import nuxt_plugin_prismicLinks_75775ed4 from 'nuxt_plugin_prismicLinks_75775ed4' // Source: ../plugins/prismicLinks (mode: 'client')
 
 // Component: <ClientOnly>
@@ -209,6 +210,10 @@ async function createApp(ssrContext, config = {}) {
     }
   }
   // Plugin execution
+
+  if (typeof nuxt_plugin_gsapModule_34bca624 === 'function') {
+    await nuxt_plugin_gsapModule_34bca624(app.context, inject)
+  }
 
   if (process.client && typeof nuxt_plugin_prismicLinks_75775ed4 === 'function') {
     await nuxt_plugin_prismicLinks_75775ed4(app.context, inject)

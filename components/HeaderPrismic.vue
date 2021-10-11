@@ -42,15 +42,42 @@
 </template>
 
 <script>
-// import { gsap, ScrollToPlugin } from 'gsap/all';
-
-// gsap.registerPlugin(ScrollToPlugin);
-
-
 
 export default {
   name: "header-prismic",
-  
+  mounted(){
+     if(this.$store.state.menu){
+      const gsap = this.$gsap;
+   
+
+      if(window.location.hash) {
+        setTimeout(function(){
+          var hash = window.location.hash.replace('#','');
+
+          console.log(hash);
+          var scrollTarget = document.getElementById(hash);
+          var offset= scrollTarget.offsetTop;
+          var furtherOffset = 150;
+
+          if(hash == 'join' || window.innerWidth >= 600){
+            furtherOffset = 0;
+          }
+
+          if(scrollTarget){
+            console.log(scrollTarget);
+            gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
+          }
+          
+
+        },400)
+      }
+      this.$store.commit('toggleMenu', false);
+      var that = this;
+      setTimeout(function(){
+        that.$store.commit('toggleBlending', false);
+      },700)
+    }
+  },
   methods: {
     toogleMenu(e) {
       if(this.$store.state.menu){
@@ -67,9 +94,12 @@ export default {
     scrollTo(e){
       
       if(e){
+
        var hash = e.target.dataset.hash;
        var scrollTarget = document.getElementById(hash);
        if(scrollTarget){
+        const gsap = this.$gsap;
+
         console.log(scrollTarget);
 
         var offset= scrollTarget.offsetTop;
@@ -78,7 +108,7 @@ export default {
         if(hash == 'join' || window.innerWidth >= 600){
           furtherOffset = 0;
         }
-       // gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
+        gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
 
         if(this.$store.state.menu){
           this.$store.commit('toggleMenu', false);
