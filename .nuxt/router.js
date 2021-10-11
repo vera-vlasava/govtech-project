@@ -4,6 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _419a8e7c = () => interopDefault(import('../pages/datenschutz.vue' /* webpackChunkName: "pages/datenschutz" */))
+const _a2fec854 = () => interopDefault(import('../pages/impressum.vue' /* webpackChunkName: "pages/impressum" */))
 const _889feb9e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _8bd2e7a2 = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
 const _405af902 = () => interopDefault(import('../pages/_uid.vue' /* webpackChunkName: "pages/_uid" */))
@@ -21,6 +23,14 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/datenschutz",
+    component: _419a8e7c,
+    name: "datenschutz"
+  }, {
+    path: "/impressum",
+    component: _a2fec854,
+    name: "impressum"
+  }, {
     path: "/",
     component: _889feb9e,
     name: "index"

@@ -20,6 +20,21 @@
           <div>
             <img src="~/assets/img/logo03.jpg" />
           </div>
+          <div>
+            <img src="~/assets/img/logo04.jpg" />
+          </div>
+          <div>
+            <img src="~/assets/img/logo05.jpg" />
+          </div>
+          <div>
+            <img src="~/assets/img/logo06.jpg" />
+          </div>
+          <div>
+            <img src="~/assets/img/logo07.jpg" />
+          </div>
+          <div>
+            <img src="~/assets/img/logo08.jpg" />
+          </div>
           
         </div>
       </div>

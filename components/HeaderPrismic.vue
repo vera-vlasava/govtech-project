@@ -50,6 +50,25 @@ gsap.registerPlugin(ScrollToPlugin);
 
 export default {
   name: "header-prismic",
+  mounted(){
+    if(window.location.hash) {
+      setTimeout(function(){
+        var scrollTarget = document.getElementById(window.location.hash);
+        var offset= scrollTarget.offsetTop;
+        var furtherOffset = 150;
+
+        if(hash == 'join' || window.innerWidth >= 600){
+          furtherOffset = 0;
+        }
+
+        if(scrollTarget){
+          gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
+        }
+        
+
+      },400)
+    }
+  }
   methods: {
     toogleMenu(e) {
       if(this.$store.state.menu){
@@ -66,7 +85,6 @@ export default {
     scrollTo(e){
       
       if(e){
-       console.log(e.target.dataset.hash);
        var hash = e.target.dataset.hash;
        var scrollTarget = document.getElementById(hash);
        if(scrollTarget){
@@ -86,8 +104,10 @@ export default {
           setTimeout(function(){
             that.$store.commit('toggleBlending', false);
           },700)
+        } 
+       }else{
+          this.$router.push("/#"+hash);
         }
-       }
       }
     }
   }
