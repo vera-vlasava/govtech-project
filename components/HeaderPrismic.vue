@@ -68,7 +68,7 @@ export default {
 
       },400)
     }
-  }
+  },
   methods: {
     toogleMenu(e) {
       if(this.$store.state.menu){
