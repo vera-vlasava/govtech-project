@@ -42,9 +42,9 @@
 </template>
 
 <script>
-import { gsap, ScrollToPlugin } from 'gsap/all';
+// import { gsap, ScrollToPlugin } from 'gsap/all';
 
-gsap.registerPlugin(ScrollToPlugin);
+// gsap.registerPlugin(ScrollToPlugin);
 
 
 
@@ -78,7 +78,7 @@ export default {
         if(hash == 'join' || window.innerWidth >= 600){
           furtherOffset = 0;
         }
-        gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
+       // gsap.to(window, 1,{scrollTo:{y:offset - furtherOffset}});
 
         if(this.$store.state.menu){
           this.$store.commit('toggleMenu', false);

@@ -4,7 +4,7 @@
     <div class="offcanvasmove">
 	    <div class="site-content page">
 	     	<div class="wrapper">
-	 			<h1 class="u-h1">datenschutz</h1>
+	 			<h1 class="u-h1">Datenschutz</h1>
 	 			<p>Lorem ipsum</p>
 	 		</div>
 	    </div>
@@ -33,7 +33,7 @@ import FooterPrismic from "~/components/FooterPrismic";
 import HeaderPrismic from "~/components/HeaderPrismic";
 
 export default {
-  name: "page",
+  name: "datenschutz",
   components: {
     // SlicesBlock,
     FooterPrismic,
@@ -41,7 +41,7 @@ export default {
   },
   head() {
     return {
-      title: 'GovTech Campus Impressum'
+      title: 'GovTech Campus Datenschutz'
     };
   }
 };
