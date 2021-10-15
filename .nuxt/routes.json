@@ -3,42 +3,36 @@
     "name": "datenschutz",
     "path": "/datenschutz",
     "component": "/Users/jonny/Projects/cru/govtech/pages/datenschutz.vue",
-    "chunkName": "pages/datenschutz",
-    "_name": "_419a8e7c"
+    "chunkName": "pages/datenschutz"
   },
   {
     "name": "impressum",
     "path": "/impressum",
     "component": "/Users/jonny/Projects/cru/govtech/pages/impressum.vue",
-    "chunkName": "pages/impressum",
-    "_name": "_a2fec854"
+    "chunkName": "pages/impressum"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/jonny/Projects/cru/govtech/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_889feb9e"
+    "chunkName": "pages/index"
   },
   {
     "name": "lang",
     "path": "/:lang",
     "component": "/Users/jonny/Projects/cru/govtech/pages/_lang/index.vue",
-    "chunkName": "pages/_lang/index",
-    "_name": "_8bd2e7a2"
+    "chunkName": "pages/_lang/index"
   },
   {
     "name": "uid",
     "path": "/:uid",
     "component": "/Users/jonny/Projects/cru/govtech/pages/_uid.vue",
-    "chunkName": "pages/_uid",
-    "_name": "_405af902"
+    "chunkName": "pages/_uid"
   },
   {
     "name": "lang-uid",
     "path": "/:lang/:uid",
     "component": "/Users/jonny/Projects/cru/govtech/pages/_lang/_uid.vue",
-    "chunkName": "pages/_lang/_uid",
-    "_name": "_03858178"
+    "chunkName": "pages/_lang/_uid"
   }
 ]
