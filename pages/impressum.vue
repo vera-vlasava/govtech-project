@@ -73,7 +73,19 @@ export default {
   },
   head() {
     return {
-      title: 'GovTech Campus Impressum'
+      title: 'GovTech – Impressum',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Technologien für die Zukunft von Staat und Verwaltung'
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: 'https://govtechcampus.de/govtech.jpg'
+        }
+      ]   
     };
   }
 };
