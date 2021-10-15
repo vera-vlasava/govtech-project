@@ -15,7 +15,7 @@
 						GovTech Campus Deutschland e.V. <br />
 						Max-Urich-Straße 3 <br />
 						D-13355 Berlin <br /> <br />3
-						Unseren Datenschutzbeauftragten erreichen Sie unter <a href="mailto:office@govtechcampus.de">office@govtechcampus.de </a> oder unserer Postadresse mit dem Zusatz „der Datenschutzbeauftragte“.
+						Unseren Datenschutzbeauftragten erreichen Sie unter <a href="mailto:office@govtechcampus.de">office@govtechcampus.de</a> oder unserer Postadresse mit dem Zusatz „der Datenschutzbeauftragte“.
 					</p>
 					<p>
 						(3) Bei Ihrer Kontaktaufnahme mit uns per E-Mail werden die von Ihnen mitgeteilten Daten (Ihre E-Mail-Adresse, ggf. Ihr Name und Ihre Telefonnummer) von uns gespeichert, um Ihre Fragen zu beantworten. Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
@@ -63,15 +63,33 @@
 						Bei der bloß informatorischen Nutzung der Website, also wenn Sie sich nicht registrieren oder uns anderweitig Informationen übermitteln, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten, die für uns technisch erforderlich sind, um Ihnen unsere Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO):
 					</p>
 					<ul>
-						Hostname des zugreifenden Rechners (IP-Adresse)
-						Datum und Uhrzeit der Anfrage
-						Zeitzonendifferenz zur Greenwich Mean Time (GMT)
-						Browsertyp/-version
-						Verwendetes Betriebssystem
-						Referrer URL (die zuvor besuchte Seite)
-						Inhalt der Anforderung (konkrete Seite)
-						jeweils übertragene Datenmenge
-						Zugriffsstatus/HTTP-Statuscode
+						<li>
+							Hostname des zugreifenden Rechners (IP-Adresse)
+						</li>
+						<li>
+							Datum und Uhrzeit der Anfrage
+						</li>
+						<li>
+							Zeitzonendifferenz zur Greenwich Mean Time (GMT)
+						</li>
+						<li>
+							Browsertyp/-version
+						</li>
+						<li>
+							Verwendetes Betriebssystem
+						</li>
+						<li>
+							Referrer URL (die zuvor besuchte Seite)
+						</li>
+						<li>
+							Inhalt der Anforderung (konkrete Seite)
+						</li>
+						<li>
+							jeweils übertragene Datenmenge
+						</li>
+						<li>
+							Zugriffsstatus/HTTP-Statuscode
+						</li>
 					</ul>
 					<p>
 						Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen, die Daten werden zudem nach einer statistischen Auswertung gelöscht.
@@ -93,7 +111,7 @@
 						Hierzu erheben wir Ihren Vor- und Nachnamen, Ihre E-Mailadresse sowie gegebenenfalls Anschrift und Telefonnummer. Diese Daten werden von uns zur Abwicklung Ihres Anliegens erhoben und gespeichert.
 					</p>
 					<p>
-						(4) Über diese Website übermittelte personenbezogene Daten verwenden wir nur dann zu Marketing- oder Werbezwecken, wenn Sie uns hierzu die Erlaubnis erteilt haben und soweit dies den gesetzlichen Regelungen entspricht. Sie können diese Erlaubnis jederzeit per formloser E-Mail an office@govtechcampus.de widerrufen.
+						(4) Über diese Website übermittelte personenbezogene Daten verwenden wir nur dann zu Marketing- oder Werbezwecken, wenn Sie uns hierzu die Erlaubnis erteilt haben und soweit dies den gesetzlichen Regelungen entspricht. Sie können diese Erlaubnis jederzeit per formloser E-Mail an <a href="mailto:office@govtechcampus.de">office@govtechcampus.de</a> widerrufen.
 					</p>
 					<p>
 						(5) Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat außerhalb des Europäischen Wirtschaftsraumen (EWR) haben, informieren wir Sie über die Folgen dieses Umstands in der Beschreibung des Angebotes.
@@ -119,7 +137,7 @@
 						(2) Soweit wir die Verarbeitung Ihrer personenbezogenen Daten auf die Interessenabwägung stützen, können Sie Widerspruch gegen die Verarbeitung einlegen. Dies ist der Fall, wenn die Verarbeitung insbesondere nicht zur Erfüllung eines Vertrags mit Ihnen erforderlich ist, was von uns jeweils bei der nachfolgenden Beschreibung der Funktionen dargestellt wird. Bei Ausübung eines solchen Widerspruchs bitten wir um Darlegung der Gründe, weshalb wir Ihre personenbezogenen Daten nicht wie von uns durchgeführt verarbeiten sollten. Im Falle Ihres begründeten Widerspruchs prüfen wir die Sachlage und werden entweder die Datenverarbeitung einstellen bzw. anpassen oder Ihnen unsere zwingenden schutzwürdigen Gründe aufzeigen, aufgrund derer wir die Verarbeitung fortführen.
 					</p>
 					<p>
-						(3) Selbstverständlich können Sie der Verarbeitung Ihrer personenbezogenen Daten für Zwecke der Werbung und Datenanalyse jederzeit widersprechen. Über Ihren Werbewiderspruch können Sie uns unter folgenden Kontaktdaten informieren: office@govtechcampus.de 
+						(3) Selbstverständlich können Sie der Verarbeitung Ihrer personenbezogenen Daten für Zwecke der Werbung und Datenanalyse jederzeit widersprechen. Über Ihren Werbewiderspruch können Sie uns unter folgenden Kontaktdaten informieren: <a href="mailto:office@govtechcampus.de">office@govtechcampus.de</a>
 					</p>
 		 		</div>
 	    </div>
