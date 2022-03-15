@@ -112,6 +112,10 @@ export default {
   text-transform: uppercase;
 }
 
+.u-h1 {
+  padding-top: 10px;
+}
+
 .logos-wrapper {
   display: flex;
   flex-wrap: wrap;

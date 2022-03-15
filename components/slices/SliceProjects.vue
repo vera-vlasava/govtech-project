@@ -116,12 +116,21 @@ export default {
 
 <style scoped>
 .slice-projects {
-  margin-bottom: 9em;
+  background-color: #fff;
+  padding: 9em 0;
+  margin-bottom: 0;
 }
+
+.u-h1,
+.slice-projects,
+.u-h3 {
+  color: #000;
+}
+
 .slice-projects__visual {
   width: 100%;
   height: 20vh;
-  margin-bottom: 1.8em;
+  /* margin-bottom: 1.8em; */
 }
 
 .slice-projects__visual video {
@@ -170,7 +179,6 @@ export default {
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
-    margin-bottom: 10em;
   }
 
   .slice-projects__visual {
@@ -186,10 +194,6 @@ export default {
 
   .slice-projects__content > div {
     width: 80%;
-  }
-
-  .slice-projects__content > div p:last-child {
-    margin-bottom: 0;
   }
 
   .logos-wrapper div {

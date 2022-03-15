@@ -2,7 +2,8 @@
   <section class="slice slice-courses" id="courses">
     <div class="wrapper  wrapper--offset">
       <h2 class="u-h1">
-        Open Courses
+        Open <br />
+        Courses
       </h2>
       <p class="intro">
         Der GovTech Campus Deutschland hebt das Konzept der Tech- und
@@ -32,7 +33,13 @@ export default {
 
 <style scoped>
 .slice-courses {
-  margin-bottom: 9em;
+  background-color: #fff;
+  padding: 9em 0;
+}
+
+.slice-courses,
+.u-h1 {
+  color: #000;
 }
 
 .slice-courses__item {
@@ -46,7 +53,7 @@ export default {
 
 @media only screen and (min-width: 900px) {
   .intro {
-    width: 70%;
+    width: 90%;
   }
   .slice-courses__item {
     display: flex;
@@ -55,13 +62,9 @@ export default {
     margin-bottom: 10em;
   }
 
-  .slice-courses__content {
+  p {
+    padding-left: 30%;
     width: 100%;
   }
-
-  .slice-courses__content > div {
-    width: 100%;
-  }
-
 }
 </style>

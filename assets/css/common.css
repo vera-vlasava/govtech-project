@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap");
 
 /*==========  Mobile First Method  ==========*/
 
@@ -20,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   letter-spacing: 0;
   background: #000;
   color: #bbb;
@@ -33,7 +32,7 @@ button:focus {
   outline: 0;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -61,35 +60,39 @@ button:focus {
   opacity: 1;
 }
 
-
-img{
+img {
   width: 100%;
   height: auto;
 }
 
-
-.wrapper{
+.wrapper {
   padding: 0 30px;
   width: 100vw;
   overflow-x: hidden;
 }
 
-.wrapper.wrapper--offset{
+.wrapper.wrapper--offset {
   padding: 0 30px 0 30px;
 }
 
-
-.wrapper.wrapper--full{
+.wrapper.wrapper--full {
   padding: 0;
 }
 
-p{
+p {
   margin-bottom: 1em;
 }
 
-
-.text-link{
-  background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
+.text-link {
+  background: linear-gradient(
+    230deg,
+    #e6e6cf,
+    #e6fffa 25.17%,
+    #ffffff 50%,
+    #c2e0fb 73.09%,
+    #a3adaa 90.09%,
+    #bbdef2
+  );
   background-size: 200% 200%;
   -webkit-animation: silverMove 8s ease infinite;
   -moz-animation: silverMove 8s ease infinite;
@@ -99,8 +102,7 @@ p{
   text-decoration: underline;
 }
 
-
-.btn{
+.btn {
   background: #1f1f1f;
   text-decoration: none;
   color: #000;
@@ -109,8 +111,16 @@ p{
   display: inline-block;
 }
 
-.btn span{
-  background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
+.btn span {
+  background: linear-gradient(
+    230deg,
+    #e6e6cf,
+    #e6fffa 25.17%,
+    #ffffff 50%,
+    #c2e0fb 73.09%,
+    #a3adaa 90.09%,
+    #bbdef2
+  );
   background-size: 200% 200%;
   animation: silverMove 8s ease infinite;
   color: #000;
@@ -121,9 +131,16 @@ p{
   transition: all 0.3s ease;
 }
 
-
-.btn span:hover{
-  background: linear-gradient(230deg, #e6e6cf,#e6fffa 25.17%,#ffffff 50%,#c2e0fb 73.09%,#A3ADAA 90.09%,#bbdef2);
+.btn span:hover {
+  background: linear-gradient(
+    230deg,
+    #e6e6cf,
+    #e6fffa 25.17%,
+    #ffffff 50%,
+    #c2e0fb 73.09%,
+    #a3adaa 90.09%,
+    #bbdef2
+  );
   background-size: 200% 200%;
   animation: silverMove 8s ease infinite;
   -webkit-background-clip: text;
@@ -131,60 +148,75 @@ p{
   transition: all 0.3s ease;
 }
 
-
-
-
 @-webkit-keyframes silverMove {
-    0%{background-position:0% 92%}
-    50%{background-position:100% 9%}
-    100%{background-position:0% 92%}
+  0% {
+    background-position: 0% 92%;
+  }
+  50% {
+    background-position: 100% 9%;
+  }
+  100% {
+    background-position: 0% 92%;
+  }
 }
 @-moz-keyframes silverMove {
-    0%{background-position:0% 92%}
-    50%{background-position:100% 9%}
-    100%{background-position:0% 92%}
+  0% {
+    background-position: 0% 92%;
+  }
+  50% {
+    background-position: 100% 9%;
+  }
+  100% {
+    background-position: 0% 92%;
+  }
 }
 @keyframes silverMove {
-    0%{background-position:0% 92%}
-    50%{background-position:100% 9%}
-    100%{background-position:0% 92%}
+  0% {
+    background-position: 0% 92%;
+  }
+  50% {
+    background-position: 100% 9%;
+  }
+  100% {
+    background-position: 0% 92%;
+  }
 }
 
-.slice{
-  margin: 18em 0;
+.slice {
+  margin-bottom: 18em 0;
 }
 
-.u-h1{
+.u-h1 {
   font-size: 3.077em;
   line-height: 100%;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: .7em;
+  margin-bottom: 0.7em;
   color: #fff;
-  transition: all .3 ease;
+  transition: all 0.3 ease;
 }
 
-.u-h1 small{
-  font-size: 0.350em;
+.u-h1 small {
+  font-size: 0.35em;
   display: block;
   margin-top: -0.4em;
 }
 
-.u-h2{
+.u-h2 {
   font-size: 1.231em;
   line-height: 150%;
   font-weight: 600;
   color: #fff;
 }
 
-.u-h3{
+.u-h3 {
   font-size: 1.231em;
   line-height: 150%;
   font-weight: 600;
   color: #fff;
 }
 
-.u-h4{
+.u-h4 {
   font-size: 1.231em;
   line-height: 150%;
   font-weight: 300;
@@ -192,69 +224,68 @@ p{
   color: #fff;
 }
 
-@media only screen and (max-width: 899px){
-  .hide-mobile{
+@media only screen and (max-width: 899px) {
+  .hide-mobile {
     display: none;
   }
 }
 
-@media only screen and (min-width: 900px){
-  .hide-desktop{
+@media only screen and (min-width: 900px) {
+  .hide-desktop {
     display: none;
   }
-  body{
+  body {
     font-size: 16px;
   }
-  .wrapper{
+  .wrapper {
     padding: 0 60px;
     width: 100vw;
     overflow-x: hidden;
   }
 
-  .wrapper.wrapper--offset{
+  .wrapper.wrapper--offset {
     padding: 0 60px 0 180px;
   }
 
-
-  .wrapper.wrapper--full{
+  .wrapper.wrapper--full {
     padding: 0;
   }
 
-  .slice{
+  .slice {
     margin: 10em 0;
   }
 
-  .u-h1{
+  .u-h1 {
     font-size: 4.875em;
     line-height: 100%;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: .3em;
+    margin-bottom: 0.3em;
     color: #fff;
-    transition: all .3 ease;
+    transition: all 0.3 ease;
   }
 
-  .u-h1 small{
+  .u-h1 small {
     font-size: 0.231em;
     display: block;
     margin-top: -0.4em;
   }
 
-  .u-h2{
-    font-size: 2.250em;
+  .u-h2 {
+    font-size: 2.25em;
     line-height: 150%;
     font-weight: 600;
     color: #fff;
   }
 
-  .u-h3{
+  .u-h3 {
     font-size: 1.231em;
     line-height: 150%;
     font-weight: 600;
     color: #fff;
   }
 
-  .u-h4{
+  .u-h4 {
     font-size: 1.231em;
     line-height: 150%;
     font-weight: 300;
@@ -263,23 +294,21 @@ p{
   }
 }
 
-
-@media only screen and (min-width: 1400px){
-  body{
+@media only screen and (min-width: 1400px) {
+  body {
     font-size: 20px;
   }
-  .wrapper{
+  .wrapper {
     padding: 0 10vw;
     width: 100vw;
     overflow-x: hidden;
   }
 
-  .wrapper.wrapper--offset{
+  .wrapper.wrapper--offset {
     padding: 0 10vw 0 20vw;
   }
 
-
-  .wrapper.wrapper--full{
+  .wrapper.wrapper--full {
     padding: 0;
   }
 }

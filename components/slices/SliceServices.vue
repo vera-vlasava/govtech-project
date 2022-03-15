@@ -122,6 +122,10 @@ export default {
     margin-bottom: 10em;
   }
 
+  .slice-services__item:last-child {
+    margin-bottom: 0;
+  }
+
   .slice-services__item.slice-services__visual--right .slice-services__visual {
     order: 2;
   }

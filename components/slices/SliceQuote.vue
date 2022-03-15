@@ -75,13 +75,5 @@ export default {
     margin: 0 auto;
     font-weight: bold;
   }
-
-  .slice-qoute__content {
-    width: 100%;
-  }
-
-  .slice-qoute__content > div {
-    width: 100%;
-  }
 }
 </style>

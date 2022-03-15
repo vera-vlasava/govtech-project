@@ -75,6 +75,10 @@
         </div>
       </div>
     </div>
+    <div class="wrapper wrapper--full parallax-bg">
+      <img src="~/assets/img/background-pic_01.jpg" v-parallax="0.2" />
+      <!-- ~/assets/img/govtech_stage.jpg -->
+    </div>
     <!-- <div class="communities">
       <div class="communities__item">
         <div class="wrapper wrapper--offset">
@@ -196,16 +200,29 @@ export default {
 </script>
 
 <style scoped>
-.communities {
+/* .communities {
   margin: 2em 0;
-}
-.horizontal-scroll {
+} */
+/* .horizontal-scroll {
   white-space: nowrap;
   overflow-x: scroll;
+} */
+
+/* .horizontal-scroll::-webkit-scrollbar {
+  display: none;
+} */
+
+.parallax-bg {
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+  margin-top: 4em;
 }
 
-.horizontal-scroll::-webkit-scrollbar {
-  display: none;
+.parallax-bg img {
+  height: 120%;
+  width: 120%;
+  object-fit: cover;
 }
 
 .logos {
@@ -292,11 +309,11 @@ export default {
     margin-bottom: 0;
   }
 
-  .communities {
+  /* .communities {
     margin-top: 80px;
-  }
+  } */
 
-  .communities__item {
+  /* .communities__item {
     padding: 0 0 80px 180px;
     display: flex;
     align-items: center;
@@ -313,6 +330,11 @@ export default {
     padding: 0;
     display: flex;
     align-items: center;
+  } */
+
+  .parallax-bg {
+    height: 100vh;
+    margin-top: 10em;
   }
 
   .logos {
@@ -323,9 +345,9 @@ export default {
   }
 }
 
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1400px) {
   .communities__item {
     padding: 0 0 100px 20vw;
   }
-}
+} */
 </style>

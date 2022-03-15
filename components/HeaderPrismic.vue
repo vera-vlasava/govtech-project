@@ -109,6 +109,12 @@
               <span>Programme</span>
             </button>
           </li>
+
+          <li>
+            <button data-hash="projects" v-on:click="scrollTo">
+              <span>Projekte</span>
+            </button>
+          </li>
           <li>
             <button data-hash="ecosystem" v-on:click="scrollTo">
               <span>Ökosystem</span>
@@ -238,7 +244,8 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  height: 500px;
+  height: auto;
+  padding: 135px 0 90px 0;
   width: 100%;
   background: #000;
   color: #fff;
@@ -248,7 +255,7 @@ export default {
   justify-content: center;
   text-align: center;
   border-bottom: 1px solid #fff;
-  transform: translateY(-500px);
+  transform: translateY(-100%);
   transition: transform 0.7s ease-out;
 }
 
@@ -337,7 +344,6 @@ header.disableblend {
 header > .wrapper {
   position: relative;
   z-index: 200;
-
 }
 .wrapper {
   display: flex;
@@ -388,9 +394,9 @@ header > .wrapper {
     height: 70px;
   }
 
-  .offcanvas {
+  /* .offcanvas {
     padding-top: 0;
-  }
+  } */
 
   .offcanvas button:hover {
     opacity: 0.5;
