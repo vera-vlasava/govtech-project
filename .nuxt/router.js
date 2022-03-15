@@ -4,12 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _419a8e7c = () => interopDefault(import('../pages/datenschutz.vue' /* webpackChunkName: "pages/datenschutz" */))
-const _a2fec854 = () => interopDefault(import('../pages/impressum.vue' /* webpackChunkName: "pages/impressum" */))
-const _889feb9e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _8bd2e7a2 = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
-const _405af902 = () => interopDefault(import('../pages/_uid.vue' /* webpackChunkName: "pages/_uid" */))
-const _03858178 = () => interopDefault(import('../pages/_lang/_uid.vue' /* webpackChunkName: "pages/_lang/_uid" */))
+const _01ec0994 = () => interopDefault(import('..\\pages\\datenschutz.vue' /* webpackChunkName: "pages/datenschutz" */))
+const _d724296c = () => interopDefault(import('..\\pages\\impressum.vue' /* webpackChunkName: "pages/impressum" */))
+const _54f733a5 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _005a1062 = () => interopDefault(import('..\\pages\\_lang\\index.vue' /* webpackChunkName: "pages/_lang/index" */))
+const _4d8ed10e = () => interopDefault(import('..\\pages\\_uid.vue' /* webpackChunkName: "pages/_uid" */))
+const _93a22e9e = () => interopDefault(import('..\\pages\\_lang\\_uid.vue' /* webpackChunkName: "pages/_lang/_uid" */))
 
 const emptyFn = () => {}
 
@@ -24,27 +24,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/datenschutz",
-    component: _419a8e7c,
+    component: _01ec0994,
     name: "datenschutz"
   }, {
     path: "/impressum",
-    component: _a2fec854,
+    component: _d724296c,
     name: "impressum"
   }, {
     path: "/",
-    component: _889feb9e,
+    component: _54f733a5,
     name: "index"
   }, {
     path: "/:lang",
-    component: _8bd2e7a2,
+    component: _005a1062,
     name: "lang"
   }, {
     path: "/:uid",
-    component: _405af902,
+    component: _4d8ed10e,
     name: "uid"
   }, {
     path: "/:lang/:uid",
-    component: _03858178,
+    component: _93a22e9e,
     name: "lang-uid"
   }],
 

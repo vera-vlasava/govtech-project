@@ -2,43 +2,43 @@
   {
     "name": "datenschutz",
     "path": "/datenschutz",
-    "component": "/Users/jonny/Projects/cru/govtech/pages/datenschutz.vue",
+    "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\datenschutz.vue",
     "chunkName": "pages/datenschutz",
-    "_name": "_419a8e7c"
+    "_name": "_01ec0994"
   },
   {
     "name": "impressum",
     "path": "/impressum",
-    "component": "/Users/jonny/Projects/cru/govtech/pages/impressum.vue",
+    "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\impressum.vue",
     "chunkName": "pages/impressum",
-    "_name": "_a2fec854"
+    "_name": "_d724296c"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/jonny/Projects/cru/govtech/pages/index.vue",
+    "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_889feb9e"
+    "_name": "_54f733a5"
   },
   {
     "name": "lang",
     "path": "/:lang",
-    "component": "/Users/jonny/Projects/cru/govtech/pages/_lang/index.vue",
+    "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\_lang\\\\index.vue",
     "chunkName": "pages/_lang/index",
-    "_name": "_8bd2e7a2"
+    "_name": "_005a1062"
   },
   {
     "name": "uid",
     "path": "/:uid",
-    "component": "/Users/jonny/Projects/cru/govtech/pages/_uid.vue",
+    "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\_uid.vue",
     "chunkName": "pages/_uid",
-    "_name": "_405af902"
+    "_name": "_4d8ed10e"
   },
   {
     "name": "lang-uid",
     "path": "/:lang/:uid",
-    "component": "/Users/jonny/Projects/cru/govtech/pages/_lang/_uid.vue",
+    "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\_lang\\\\_uid.vue",
     "chunkName": "pages/_lang/_uid",
-    "_name": "_03858178"
+    "_name": "_93a22e9e"
   }
 ]

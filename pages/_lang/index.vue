@@ -27,47 +27,59 @@ export default {
   },
   head() {
     return {
-      title: 'GovTech Campus Deutschland',
+      title: "GovTech Campus Deutschland",
       meta: [
         {
-          hid: 'description',
-          name: 'description',
-          content: 'Technologien für die Zukunft von Staat und Verwaltung'
+          hid: "description",
+          name: "description",
+          content: "Technologien für die Zukunft von Staat und Verwaltung"
         },
         {
-          hid: 'og:image',
-          name: 'og:image',
-          content: 'https://govtechcampus.de/govtech.jpg'
+          hid: "og:image",
+          name: "og:image",
+          content: "https://govtechcampus.de/govtech.jpg"
         }
-      ]   
+      ]
     };
   },
   data() {
     return {
       slices: [
         {
-          slice_type: 'stage'
+          slice_type: "stage"
         },
         {
-          slice_type: 'campus'
+          slice_type: "mission"
         },
         {
-          slice_type: 'services'
+          slice_type: "services"
         },
         {
-          slice_type: 'community'
+          slice_type: "projects"
         },
         {
-          slice_type: 'life'
+          slice_type: "community"
         },
         {
-          slice_type: 'spaces'
+          slice_type: "ecosystem"
         },
         {
-          slice_type: 'initiator'
+          slice_type: "life"
         },
         {
-          slice_type: 'member'
+          slice_type: "spaces"
+        },
+        {
+          slice_type: "courses"
+        },
+        {
+          slice_type: "briefing"
+        },
+        {
+          slice_type: "quote"
+        },
+        {
+          slice_type: "member"
         }
       ]
     };
