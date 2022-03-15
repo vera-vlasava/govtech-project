@@ -144,22 +144,22 @@ export default {
 }
 
 .slice-projects__item .u-h3 {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   text-transform: uppercase;
 }
 
 .logos-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin: 4em 0 4em 0;
+  margin: 2em 0;
 }
 
 .logos-wrapper div {
   display: inline-block;
   white-space: nowrap;
   height: 50px;
-  width: 100px;
-  background: #000;
+  width: 30%;
+  background: #fff;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -190,6 +190,7 @@ export default {
   .slice-projects__content {
     width: 60%;
     padding-left: 40px;
+    margin-top: 0.5em;
   }
 
   .slice-projects__content > div {
@@ -198,9 +199,6 @@ export default {
 
   .logos-wrapper div {
     height: 80px;
-    width: 160px;
-    margin-right: 10px;
-    margin-bottom: 10px;
   }
 }
 </style>

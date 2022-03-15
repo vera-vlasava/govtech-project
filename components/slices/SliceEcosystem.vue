@@ -34,6 +34,15 @@
             <div>
               <img src="~/assets/img/logo05.jpg" />
             </div>
+            <div>
+              <img src="~/assets/img/logo06.jpg" />
+            </div>
+            <div>
+              <img src="~/assets/img/logo07.jpg" />
+            </div>
+            <div>
+              <img src="~/assets/img/logo08.jpg" />
+            </div>
           </div>
         </div>
       </div>
@@ -59,6 +68,15 @@
             <div>
               <img src="~/assets/img/logo05.jpg" />
             </div>
+            <div>
+              <img src="~/assets/img/logo06.jpg" />
+            </div>
+            <div>
+              <img src="~/assets/img/logo07.jpg" />
+            </div>
+            <div>
+              <img src="~/assets/img/logo08.jpg" />
+            </div>
           </div>
         </div>
       </div>
@@ -83,6 +101,15 @@
             </div>
             <div>
               <img src="~/assets/img/logo05.jpg" />
+            </div>
+            <div>
+              <img src="~/assets/img/logo06.jpg" />
+            </div>
+            <div>
+              <img src="~/assets/img/logo07.jpg" />
+            </div>
+            <div>
+              <img src="~/assets/img/logo08.jpg" />
             </div>
           </div>
         </div>
@@ -126,7 +153,7 @@ export default {
   display: inline-block;
   white-space: nowrap;
   height: 60px;
-  width: 12 0px;
+  width: 120px;
   background: #000;
   margin-right: 20px;
   margin-bottom: 10px;

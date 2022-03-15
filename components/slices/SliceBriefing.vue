@@ -2,7 +2,8 @@
   <section class="slice slice-briefing" id="briefing">
     <div class="wrapper  wrapper--offset">
       <h2 class="u-h1">
-        Briefing Center
+        Briefing <br />
+        Center
       </h2>
       <p class="intro">
         Wir konzipieren Veranstaltungs-und Lernformate, die dem

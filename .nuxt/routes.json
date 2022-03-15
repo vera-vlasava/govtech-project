@@ -3,36 +3,42 @@
     "name": "datenschutz",
     "path": "/datenschutz",
     "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\datenschutz.vue",
-    "chunkName": "pages/datenschutz"
+    "chunkName": "pages/datenschutz",
+    "_name": "_01ec0994"
   },
   {
     "name": "impressum",
     "path": "/impressum",
     "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\impressum.vue",
-    "chunkName": "pages/impressum"
+    "chunkName": "pages/impressum",
+    "_name": "_d724296c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_54f733a5"
   },
   {
     "name": "lang",
     "path": "/:lang",
     "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\_lang\\\\index.vue",
-    "chunkName": "pages/_lang/index"
+    "chunkName": "pages/_lang/index",
+    "_name": "_005a1062"
   },
   {
     "name": "uid",
     "path": "/:uid",
     "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\_uid.vue",
-    "chunkName": "pages/_uid"
+    "chunkName": "pages/_uid",
+    "_name": "_4d8ed10e"
   },
   {
     "name": "lang-uid",
     "path": "/:lang/:uid",
     "component": "C:\\\\Users\\\\Vera\\\\OneDrive\\\\Desktop\\\\govtech\\\\govtech\\\\pages\\\\_lang\\\\_uid.vue",
-    "chunkName": "pages/_lang/_uid"
+    "chunkName": "pages/_lang/_uid",
+    "_name": "_93a22e9e"
   }
 ]
